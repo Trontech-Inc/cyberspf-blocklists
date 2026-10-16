@@ -20,9 +20,7 @@ Plain one-IP-per-line, IPv4 and IPv6, with a `#` comment header.
 https://raw.githubusercontent.com/Trontech-Inc/cyberspf-blocklists/main/decoy-ips.txt
 ```
 
-> These are **IP addresses**, for firewall tools. This is **not** a Pi-hole list —
-> Pi-hole blocks domains, and a domain blocker fed an IP list silently matches
-> nothing.
+> These are **IP addresses**, for firewall tools — not a domain blocker.
 
 ## Using it
 
