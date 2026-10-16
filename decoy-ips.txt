@@ -1,0 +1,53 @@
+# CyberSPF — Decoy Sensor Blocklist
+#
+# Source IPs caught probing CyberSPF decoy (honeypot) infrastructure —
+# systems that exist only to attract scanners and attackers, so a hit is
+# a high-confidence malicious/abuse signal. Rolling window; stale entries
+# age out automatically. One IP per line, IPv4 and IPv6.
+#
+# Homepage:  https://cyberspf.com
+# License:   free for any use, including commercial, with attribution.
+# Generated: 2026-10-16 01:59 UTC
+# Entries:   38
+#
+# For pfBlockerNG / ipset / CrowdSec / fail2ban (a plain IP list).
+# NOT a Pi-hole list — Pi-hole blocks domains, and these are IPs.
+
+4.224.122.112
+8.234.193.70
+20.200.208.154
+20.207.202.183
+20.210.166.54
+20.213.164.192
+20.239.176.5
+34.128.113.160
+34.143.176.226
+34.151.74.250
+34.168.137.0
+35.221.87.100
+40.74.77.37
+45.138.12.6
+45.138.12.21
+45.138.12.65
+45.138.12.188
+45.148.10.120
+52.141.3.247
+52.187.230.78
+74.225.146.100
+74.225.168.179
+74.225.203.7
+91.148.245.81
+93.123.109.228
+93.123.109.230
+130.12.180.39
+134.199.166.174
+138.197.132.162
+159.203.34.19
+161.33.171.124
+165.245.183.9
+170.64.171.53
+178.16.54.197
+195.178.110.199
+2400:8d60:8::96b0:ddfd
+2602:fa59:10:12f::1
+2a0f:ca80:b00b:eff9::5
