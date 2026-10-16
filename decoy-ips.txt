@@ -7,11 +7,11 @@
 #
 # Homepage:  https://cyberspf.com
 # License:   free for any use, including commercial, with attribution.
-# Generated: 2026-10-16 01:59 UTC
+# Generated: 2026-10-16 02:22 UTC
 # Entries:   38
 #
-# For pfBlockerNG / ipset / CrowdSec / fail2ban (a plain IP list).
-# NOT a Pi-hole list — Pi-hole blocks domains, and these are IPs.
+# A plain IP list, for firewall tools (pfBlockerNG / ipset / CrowdSec /
+# fail2ban). These are IP addresses, not domains.
 
 4.224.122.112
 8.234.193.70
