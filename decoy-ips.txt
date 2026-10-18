@@ -7,8 +7,8 @@
 #
 # Homepage:  https://cyberspf.com
 # License:   free for any use, including commercial, with attribution.
-# Generated: 2026-10-18 07:07 UTC
-# Entries:   114
+# Generated: 2026-10-18 08:07 UTC
+# Entries:   113
 #
 # A plain IP list, for firewall tools (pfBlockerNG / ipset / CrowdSec /
 # fail2ban). These are IP addresses, not domains.
@@ -21,7 +21,6 @@
 34.47.43.120
 34.79.12.228
 34.85.55.222
-34.151.74.250
 45.3.32.97
 45.3.33.212
 45.3.34.71
