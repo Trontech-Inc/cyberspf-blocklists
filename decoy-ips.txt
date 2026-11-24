@@ -2,17 +2,22 @@
 #
 # Source IPs caught probing CyberSPF decoy (honeypot) infrastructure —
 # systems that exist only to attract scanners and attackers, so a hit is
-# a high-confidence malicious/abuse signal. Rolling window; stale entries
-# age out automatically. One IP per line, IPv4 and IPv6.
+# a high-confidence malicious/abuse signal. Sensors: a web decoy (probes
+# for admin consoles, .env/.git, WordPress) and an SSH decoy (login
+# attempts, commands, downloads -- never bare banner scans).
+#
+# Rolling window; stale entries age out automatically. One IP per line,
+# IPv4 and IPv6.
 #
 # Homepage:  https://cyberspf.com
 # License:   free for any use, including commercial, with attribution.
-# Generated: 2026-11-24 19:07 UTC
-# Entries:   19
+# Generated: 2026-11-24 20:07 UTC
+# Entries:   23
 #
 # A plain IP list, for firewall tools (pfBlockerNG / ipset / CrowdSec /
 # fail2ban). These are IP addresses, not domains.
 
+2.57.121.25
 4.197.158.170
 4.213.7.31
 20.28.214.139
@@ -28,7 +33,10 @@
 104.28.215.178
 104.28.215.179
 104.28.247.179
+109.160.32.45
 170.106.132.175
+193.46.255.86
 195.178.110.37
+195.178.110.228
 207.175.61.160
 2a06:98c0:3600::103
