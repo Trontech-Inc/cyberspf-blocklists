@@ -14,8 +14,8 @@
 #
 # Homepage:  https://cyberspf.com
 # License:   free for any use, including commercial, with attribution.
-# Generated: 2026-11-26 02:07 UTC
-# Entries:   10
+# Generated: 2026-11-26 03:07 UTC
+# Entries:   12
 
 2.57.121.0/24
 2.57.122.0/24
@@ -26,4 +26,6 @@
 92.118.39.0/24
 93.152.221.0/24
 94.26.106.0/24
+102.220.160.0/23
+130.12.182.0/24
 193.46.255.0/24
